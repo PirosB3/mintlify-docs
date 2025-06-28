@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vocs dev",
+    "build": "vocs build",
+    "preview": "vocs preview"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vocs": "latest",
+    "wagmi": "^2.14.12"
+  },
+  "dependencies": {
+    "mint": "^4.1.97"
+  }
+}

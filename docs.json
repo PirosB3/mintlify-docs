@@ -1,55 +1,90 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Farcaster Mini Apps",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#7C3AED",
+    "light": "#8B5CF6",
+    "dark": "#6D28D9"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "docs/getting-started",
+              "docs/specification"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Guides",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "docs/guides/auth",
+              "docs/guides/discovery",
+              "docs/guides/domain-migration",
+              "docs/guides/loading",
+              "docs/guides/notifications",
+              "docs/guides/publishing",
+              "docs/guides/share-extension",
+              "docs/guides/sharing",
+              "docs/guides/solana",
+              "docs/guides/urls",
+              "docs/guides/wallets"
+            ]
+          },
+          {
+            "group": "Managed Services",
+            "pages": [
+              "docs/managed-services/neynar"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "SDK Reference",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "SDK Overview",
             "pages": [
-              "api-reference/introduction"
+              "docs/sdk/context",
+              "docs/sdk/events",
+              "docs/sdk/haptics",
+              "docs/sdk/back",
+              "docs/sdk/detecting-capabilities",
+              "docs/sdk/is-in-mini-app",
+              "docs/sdk/wallet",
+              "docs/sdk/solana",
+              "docs/sdk/changelog"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "SDK Actions",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "docs/sdk/actions/ready",
+              "docs/sdk/actions/add-frame",
+              "docs/sdk/actions/close",
+              "docs/sdk/actions/compose-cast",
+              "docs/sdk/actions/open-url",
+              "docs/sdk/actions/send-token",
+              "docs/sdk/actions/sign-in",
+              "docs/sdk/actions/swap-token",
+              "docs/sdk/actions/view-cast",
+              "docs/sdk/actions/view-profile",
+              "docs/sdk/actions/view-token"
+            ]
+          },
+          {
+            "group": "Quick Auth",
+            "pages": [
+              "docs/sdk/quick-auth/index",
+              "docs/sdk/quick-auth/fetch",
+              "docs/sdk/quick-auth/get-token",
+              "docs/sdk/quick-auth/token"
             ]
           }
         ]
@@ -58,19 +93,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "GitHub",
+          "href": "https://github.com/farcasterxyz/miniapps",
+          "icon": "github"
+        },
+        {
+          "anchor": "Farcaster",
+          "href": "https://farcaster.xyz",
+          "icon": "globe"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "href": "https://warpcast.com/~/channel/frames",
+          "icon": "users"
         }
       ]
     }
@@ -83,20 +118,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://warpcast.com/~/channel/frames"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "View Examples",
+      "href": "https://github.com/farcasterxyz/miniapps/tree/main/examples"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/farcaster",
+      "github": "https://github.com/farcasterxyz/miniapps",
+      "linkedin": "https://linkedin.com/company/farcaster"
     }
   }
 }
